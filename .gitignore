@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[oc]
+*.egg-info/
+.venv/
+.pytest_cache/
+
+# Env files (never commit secrets)
+.env
+.env.*
+!.env.example
+
+# Editors / OS
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+
+# Docker volumes (if mounted locally)
+pgdata/
+redisdata/
+miniodata/
+qdrantdata/

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doc Lens — Chat</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <canvas id="bg-scene"></canvas>
+
+  <!-- Auth view: shown until a JWT is present -->
+  <section id="auth-view" class="auth-view">
+    <div class="auth-card">
+      <h1>Doc Lens</h1>
+      <div class="auth-tabs">
+        <button id="tab-login" class="tab active" type="button">Log in</button>
+        <button id="tab-register" class="tab" type="button">Register</button>
+      </div>
+      <form id="login-form" class="auth-form">
+        <input type="email" id="login-email" placeholder="Email" autocomplete="email" required />
+        <input type="password" id="login-password" placeholder="Password" autocomplete="current-password" required />
+        <button type="submit">Log in</button>
+        <p class="error" id="login-error"></p>
+      </form>
+      <form id="register-form" class="auth-form hidden">
+        <input type="email" id="register-email" placeholder="Email" autocomplete="email" required />
+        <input type="password" id="register-password" placeholder="Password (min 8 chars)" autocomplete="new-password" required />
+        <button type="submit">Create account</button>
+        <p class="error" id="register-error"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Chat view: shown once authenticated -->
+  <div id="chat-view" class="chat-view hidden">
+    <aside class="sidebar">
+      <button id="new-chat-btn" class="new-chat-btn" type="button">+ New chat</button>
+      <ul id="session-list" class="session-list"></ul>
+
+      <div class="documents-panel">
+        <div class="documents-header">
+          <span>Documents</span>
+          <label class="upload-btn" for="document-upload">+ Upload PDF</label>
+          <input type="file" id="document-upload" accept="application/pdf" hidden />
+        </div>
+        <p class="error" id="upload-error"></p>
+        <ul id="document-list" class="document-list"></ul>
+      </div>
+
+      <button id="logout-btn" class="logout-btn" type="button">Log out</button>
+    </aside>
+    <main class="chat-main">
+      <div id="message-list" class="message-list"></div>
+      <form id="message-form" class="message-form">
+        <input type="text" id="message-input" placeholder="Message…" autocomplete="off" />
+        <button type="submit">Send</button>
+      </form>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked@15/marked.min.js"></script>
+  <script src="/js/scene.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
