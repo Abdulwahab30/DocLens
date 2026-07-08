@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "question": "What was the total global clean energy investment reached in 2024?",
+        "expected_answer": "USD 623 billion",
+        "source_page": 2
+    },
+    {
+        "id": 2,
+        "question": "What was the total global installed renewable capacity by the end of 2024?",
+        "expected_answer": "4,675 GW",
+        "source_page": 2
+    },
+    {
+        "id": 3,
+        "question": "What percentage of the global renewable capacity share did the Asia-Pacific region hold in 2024?",
+        "expected_answer": "45%",
+        "source_page": 4
+    },
+    {
+        "id": 4,
+        "question": "Since 2019, at what compound annual rate has clean energy financing grown?",
+        "expected_answer": "17.2%",
+        "source_page": 3
+    },
+    {
+        "id": 5,
+        "question": "What was India's total renewable capacity and global rank as of December 2024?",
+        "expected_answer": "Rank 3 with a total capacity of 289 GW",
+        "source_page": 3
+    },
+    {
+        "id": 6,
+        "question": "By what percentage did total global installed renewable capacity increase over the recorded five-year period?",
+        "expected_answer": "+48%",
+        "source_page": 2
+    },
+    {
+        "id": 7,
+        "question": "According to Table 1, what was Australia's Year-on-Year (YoY) growth rate in renewable capacity?",
+        "expected_answer": "+18.1%",
+        "source_page": 3
+    },
+    {
+        "id": 8,
+        "question": "What was the Levelised Cost of Electricity (LCOE) for utility Solar PV in 2019 compared to its cost in 2024?",
+        "expected_answer": "$68/MWh in 2019 and $36/MWh in 2024",
+        "source_page": 4
+    },
+    {
+        "id": 9,
+        "question": "Which renewable energy technology featured the highest LCOE in 2019 at $115/MWh?",
+        "expected_answer": "Offshore Wind",
+        "source_page": 4
+    },
+    {
+        "id": 10,
+        "question": "What external data publications were sourced to compile this report?",
+        "expected_answer": "IRENA Renewable Capacity Statistics 2024; Bloomberg NEF New Energy Outlook 2024; IEA World Energy Investment 2024",
+        "source_page": 5
+    },
+    {
+        "id": 11,
+        "question": "On what date was Sputnik 1 launched, and which country launched it?",
+        "expected_answer": "Sputnik 1 was launched on October 4, 1957, by the Soviet Union.",
+        "source_page": 2
+    },
+    {
+        "id": 12,
+        "question": "What is the payload capacity of the Falcon 9 (reusable) to Low Earth Orbit?",
+        "expected_answer": "15,600 kg",
+        "source_page": 3
+    },
+    {
+        "id": 13,
+        "question": "What is the specific impulse (Isp) of a Liquid Hydrogen / LOX propellant combination?",
+        "expected_answer": "~450 seconds",
+        "source_page": 3
+    },
+    {
+        "id": 14,
+        "question": "At what altitude does the International Space Station orbit Earth?",
+        "expected_answer": "The ISS orbits at an average altitude of 408 km (253 miles), with a variable range of 370–460 km.",
+        "source_page": 5
+    },
+    {
+        "id": 15,
+        "question": "What is the pressurised volume of the International Space Station?",
+        "expected_answer": "915 cubic metres",
+        "source_page": 5
+    },
+    {
+        "id": 16,
+        "question": "How many flights did NASA's Ingenuity helicopter complete on Mars?",
+        "expected_answer": "Ingenuity completed over 70 flights on Mars.",
+        "source_page": 6
+    },
+    {
+        "id": 17,
+        "question": "What key discovery did India's Chandrayaan-3 mission confirm in 2023?",
+        "expected_answer": "Chandrayaan-3 confirmed the presence of water ice at the lunar south pole.",
+        "source_page": 6
+    },
+    {
+        "id": 18,
+        "question": "What is the projected value of the global commercial space industry by 2040?",
+        "expected_answer": "The global commercial space industry is projected to exceed $1 trillion by 2040.",
+        "source_page": 7
+    },
+    {
+        "id": 19,
+        "question": "What does the acronym ISRU stand for, and what does it mean?",
+        "expected_answer": "ISRU stands for In-Situ Resource Utilisation — the process of producing resources (such as oxygen, water, or fuel) from local planetary materials.",
+        "source_page": 8
+    },
+    {
+        "id": 20,
+        "question": "At what rate do astronauts lose bone density in microgravity, and which bones are most affected?",
+        "expected_answer": "Astronauts lose bone density at approximately 1–2% per month in weight-bearing bones, a rate far faster than Earth-based osteoporosis.",
+        "source_page": 5
+    }
+]

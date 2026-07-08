@@ -67,6 +67,21 @@ flowchart TD
 
 ---
 
+## 📊 Evaluation
+
+Tested on a 20-question benchmark across 2 documents (a renewable-energy report and a space-exploration guide), using `eval/run_eval.py`.
+
+| Metric | Score |
+|--------|-------|
+| Retrieval hit-rate@5 | **100%** (20/20) |
+| Faithfulness (LLM judge) | Not measured this run — see note below |
+
+*Methodology: Questions were written from the source documents with known correct pages. Hit-rate measures whether the true source page appeared in the top-5 retrieved chunks (`retrieve_relevant_chunks` — dense vector search + Postgres full-text search, merged with RRF, then cross-encoder reranked). Faithfulness is graded by an LLM judge (`eval/run_eval.py --judge`) that is shown the actual retrieved chunk text and the assistant's generated answer, and asked whether the answer only uses information present in that context (`FAITHFUL`/`UNFAITHFUL` + a one-sentence rationale).*
+
+**Note on this run:** hit-rate (100%, 20/20) comes from a clean API-mode pass (`--mode api`, the default — exercises the full stack including the LLM-generated reply) against a freshly-uploaded copy of both eval PDFs. While re-running with `--judge` to get a faithfulness score, a real bug surfaced and was fixed: `fetch_chunk_texts()` in `eval/run_eval.py` reused one pooled DB connection across multiple `asyncio.run()` calls, each with its own event loop, causing `another operation is in progress` errors — fixed by disposing the engine after each fetch. With that fixed, the judge calls (and, shortly after, the `/api/chat` calls themselves) started failing with `429 Too Many Requests` — the project's free-tier OpenRouter key (`free-models-per-day`, 50 req/day) ran out of quota mid-evaluation-session, confirmed in the server logs. Re-run `python eval/run_eval.py --email <you> --password <pw> --judge` once the quota resets (or after adding OpenRouter credits) to get a faithfulness number from this exact pipeline.
+
+---
+
 ## 🧠 How the Retrieval Pipeline Works
 
 ```

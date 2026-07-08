@@ -1,0 +1,192 @@
+{
+  "hit_rate": 0.0,
+  "correct": 0,
+  "total": 20,
+  "top_k": 5,
+  "avg_latency_ms": 2038.5,
+  "faithfulness_rate": null,
+  "faithful_count": 0,
+  "judged": 0,
+  "results": [
+    {
+      "id": 1,
+      "question": "What was the total global clean energy investment reached in 2024?",
+      "source_page": 2,
+      "retrieved_pages": [],
+      "hit": false,
+      "latency_ms": 1367.9,
+      "error": "Server error '500 Internal Server Error' for url 'http://127.0.0.1:8000/api/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "id": 2,
+      "question": "What was the total global installed renewable capacity by the end of 2024?",
+      "source_page": 2,
+      "retrieved_pages": [],
+      "hit": false,
+      "latency_ms": 1377.4,
+      "error": "Server error '500 Internal Server Error' for url 'http://127.0.0.1:8000/api/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "id": 3,
+      "question": "What percentage of the global renewable capacity share did the Asia-Pacific region hold in 2024?",
+      "source_page": 4,
+      "retrieved_pages": [],
+      "hit": false,
+      "latency_ms": 1338.8,
+      "error": "Server error '500 Internal Server Error' for url 'http://127.0.0.1:8000/api/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "id": 4,
+      "question": "Since 2019, at what compound annual rate has clean energy financing grown?",
+      "source_page": 3,
+      "retrieved_pages": [],
+      "hit": false,
+      "latency_ms": 1543.8,
+      "error": "Server error '500 Internal Server Error' for url 'http://127.0.0.1:8000/api/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "id": 5,
+      "question": "What was India's total renewable capacity and global rank as of December 2024?",
+      "source_page": 3,
+      "retrieved_pages": [],
+      "hit": false,
+      "latency_ms": 1476.9,
+      "error": "Server error '500 Internal Server Error' for url 'http://127.0.0.1:8000/api/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "id": 6,
+      "question": "By what percentage did total global installed renewable capacity increase over the recorded five-year period?",
+      "source_page": 2,
+      "retrieved_pages": [],
+      "hit": false,
+      "latency_ms": 1373.3,
+      "error": "Server error '500 Internal Server Error' for url 'http://127.0.0.1:8000/api/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "id": 7,
+      "question": "According to Table 1, what was Australia's Year-on-Year (YoY) growth rate in renewable capacity?",
+      "source_page": 3,
+      "retrieved_pages": [],
+      "hit": false,
+      "latency_ms": 1653.1,
+      "error": "Server error '500 Internal Server Error' for url 'http://127.0.0.1:8000/api/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "id": 8,
+      "question": "What was the Levelised Cost of Electricity (LCOE) for utility Solar PV in 2019 compared to its cost in 2024?",
+      "source_page": 4,
+      "retrieved_pages": [],
+      "hit": false,
+      "latency_ms": 1476.2,
+      "error": "Server error '500 Internal Server Error' for url 'http://127.0.0.1:8000/api/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "id": 9,
+      "question": "Which renewable energy technology featured the highest LCOE in 2019 at $115/MWh?",
+      "source_page": 4,
+      "retrieved_pages": [],
+      "hit": false,
+      "latency_ms": 1394.4,
+      "error": "Server error '500 Internal Server Error' for url 'http://127.0.0.1:8000/api/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "id": 10,
+      "question": "What external data publications were sourced to compile this report?",
+      "source_page": 5,
+      "retrieved_pages": [],
+      "hit": false,
+      "latency_ms": 1365.6,
+      "error": "Server error '500 Internal Server Error' for url 'http://127.0.0.1:8000/api/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "id": 11,
+      "question": "On what date was Sputnik 1 launched, and which country launched it?",
+      "source_page": 2,
+      "retrieved_pages": [],
+      "hit": false,
+      "latency_ms": 1315.3,
+      "error": "Server error '500 Internal Server Error' for url 'http://127.0.0.1:8000/api/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "id": 12,
+      "question": "What is the payload capacity of the Falcon 9 (reusable) to Low Earth Orbit?",
+      "source_page": 3,
+      "retrieved_pages": [],
+      "hit": false,
+      "latency_ms": 1566.4,
+      "error": "Server error '500 Internal Server Error' for url 'http://127.0.0.1:8000/api/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "id": 13,
+      "question": "What is the specific impulse (Isp) of a Liquid Hydrogen / LOX propellant combination?",
+      "source_page": 3,
+      "retrieved_pages": [],
+      "hit": false,
+      "latency_ms": 1575.0,
+      "error": "Server error '500 Internal Server Error' for url 'http://127.0.0.1:8000/api/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "id": 14,
+      "question": "At what altitude does the International Space Station orbit Earth?",
+      "source_page": 5,
+      "retrieved_pages": [],
+      "hit": false,
+      "latency_ms": 1563.7,
+      "error": "Server error '500 Internal Server Error' for url 'http://127.0.0.1:8000/api/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "id": 15,
+      "question": "What is the pressurised volume of the International Space Station?",
+      "source_page": 5,
+      "retrieved_pages": [],
+      "hit": false,
+      "latency_ms": 1965.3,
+      "error": "Server error '500 Internal Server Error' for url 'http://127.0.0.1:8000/api/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "id": 16,
+      "question": "How many flights did NASA's Ingenuity helicopter complete on Mars?",
+      "source_page": 6,
+      "retrieved_pages": [],
+      "hit": false,
+      "latency_ms": 1493.5,
+      "error": "Server error '500 Internal Server Error' for url 'http://127.0.0.1:8000/api/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "id": 17,
+      "question": "What key discovery did India's Chandrayaan-3 mission confirm in 2023?",
+      "source_page": 6,
+      "retrieved_pages": [],
+      "hit": false,
+      "latency_ms": 1543.7,
+      "error": "Server error '500 Internal Server Error' for url 'http://127.0.0.1:8000/api/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "id": 18,
+      "question": "What is the projected value of the global commercial space industry by 2040?",
+      "source_page": 7,
+      "retrieved_pages": [],
+      "hit": false,
+      "latency_ms": 1399.3,
+      "error": "Server error '500 Internal Server Error' for url 'http://127.0.0.1:8000/api/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "id": 19,
+      "question": "What does the acronym ISRU stand for, and what does it mean?",
+      "source_page": 8,
+      "retrieved_pages": [],
+      "hit": false,
+      "latency_ms": 12545.9,
+      "error": "Server error '500 Internal Server Error' for url 'http://127.0.0.1:8000/api/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "id": 20,
+      "question": "At what rate do astronauts lose bone density in microgravity, and which bones are most affected?",
+      "source_page": 5,
+      "retrieved_pages": [],
+      "hit": false,
+      "latency_ms": 1434.8,
+      "error": "Server error '500 Internal Server Error' for url 'http://127.0.0.1:8000/api/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    }
+  ]
+}
