@@ -15,6 +15,11 @@ app.include_router(chat_router)
 app.include_router(documents_router)
 
 
+@app.get("/api/health")
+async def health() -> dict:
+    return {"status": "ok"}
+
+
 @app.on_event("startup")
 async def ensure_ingestion_infra() -> None:
     """Create the MinIO bucket and Qdrant collection if they don't exist yet, so a fresh
